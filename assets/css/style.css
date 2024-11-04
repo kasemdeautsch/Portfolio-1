@@ -28,17 +28,72 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
+header a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
 h1{
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    text-align: center;
 }
+#menue{
+    font-size: 80%;
+    letter-spacing: 1px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
 
+}
+#menue > li{
+    margin-bottom11:1em ;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
 /*Main content*/
 main {
     background-color: lightcyan;
     flex: 1 0 auto;
+    margin-top: 75px;
 }
 
 /*Footer*/
 footer {
     background-color: rgb(243, 122, 24);
+}
+
+/*Media query styles for tablets and larger(768px)*/
+@media screen and (min-width:768px) {
+    header{
+        display: flex;
+        justify-content:space-between;
+        align-items:baseline;
+    }
+    #menue li{
+        font-size: 140%;
+        letter-spacing: 2px;
+        padding-left: 3em;
+    }
+    #logo{
+        font-size: 250%;
+        line-height: 60px;
+        margin: 0.5rem;
+    }
+    main{
+        margin-top: 76px;
+    }
+}
+
+/*Media query styles for laptops and larger(992px)*/
+@media screen and (min-width:992px) {
+    #menue a:hover{
+        border-bottom: 1px solid #3a3a3a;
+
+    }
 }
