@@ -50,8 +50,8 @@ h1{
     padding-bottom: 0.5rem;
 
 }
-#menue > li{
-    margin-bottom11:1em ;
+#XXXXXmenue > li{
+    margin-bottom:1em ;
 }
 .active{
     border-bottom: 1px solid #3a3a3a;
@@ -64,8 +64,25 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: rgb(243, 122, 24);
+#social-networks {
+    
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i{
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+footer p{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 10px;
 }
 
 /*Media query styles for tablets and larger(768px)*/
