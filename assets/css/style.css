@@ -1,0 +1,29 @@
+
+/*Asterisc wildcard selector to override default styles in the browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*General styles*/
+body{
+    min-height: 100vh;
+    display: flex;
+    /*by this Main element will take all surplus space and push the footer down*/
+    flex-direction: column;
+    /*Generic styles*/
+    color: #3a3a3a;
+}
+/*Header*/
+header{
+    background-color: lightcoral;
+}
+/*Main content*/
+main{
+    background-color: lightcyan;
+    flex: 1 0 auto;
+}
+/*Footer*/
+footer{
+    background-color: rgb(243, 122, 24);
+}
