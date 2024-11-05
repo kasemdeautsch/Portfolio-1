@@ -64,13 +64,22 @@ main {
 }
 #map{
     background: url("../images/sy-01.jpg") no-repeat center center/cover;
-   
-    
     min-height: 600px;
     width: 100%;
+    opacity: 10%;
+    background-color1:rgba(245, 131, 131, 0.5)
 }
-
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+#photos{
+    line-height: 0;
+}
 /*Footer*/
+footer{
+    box-shadow: 0 -2px 2px #3a3a3a;
+}
 #social-networks {
     
     text-align: center;
@@ -78,18 +87,19 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    
 }
 #social-networks i{
     font-size: 150%;
     padding: 5%;
     color: #3a3a3a;
 }
-footer p{
-    text-align: center;
-    font-size: 120%;
-    font-weight: 700;
-    line-height: 20px;
-    padding-top: 10px;
+
+/*Media query styles for tablets and larger(400px)*/
+@media screen and (min-width:400px) {
+    #photos{
+        column-count: 2;
+    }
 }
 
 /*Media query styles for tablets and larger(768px)*/
@@ -106,7 +116,7 @@ footer p{
     }
     #logo{
         font-size: 250%;
-        line-height: 60px;
+        line-height: 40px;
         margin: 0.5rem;
     }
     main{
