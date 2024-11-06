@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     /*Generic styles*/
     color: #3a3a3a;
+    
     font-family: 'Lato', sans-serif;
 }
 
@@ -23,16 +24,19 @@ body {
 header {
     background-color:#ffffff;
     padding: 0 1rem;
-    position: fixed;
+    position:sticky;
+    top: 0;
+    left: 0;
     z-index: 11;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    
 }
 header a{
     text-decoration: none;
     color: #3a3a3a;
 }
-h1{
+h1,h2{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -60,18 +64,39 @@ h1{
 main {
     
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top1: 75px;
 }
 #map{
-    background: url("../images/sy-01.jpg") no-repeat center center/cover;
-    min-height: 600px;
+    background: url("../images/Aleppo_City.jpg") no-repeat center center/cover;
+    
+    height: 600px;
     width: 100%;
-    opacity: 10%;
-    background-color1:rgba(245, 131, 131, 0.5)
+    
+    
 }
+#cover-text{
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 130%;
+    height: 100%;
+    padding: 30px 10px;
+   
+}
+hr{
+    border-bottom: 1px solid #3a3a3a;
+    width1: 70%;
+    text-align1: center;
+}
+#cover-text p{
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+/*Gallery page*/
 #photos img{
     width: 100%;
     line-height: 1em;
+    height: auto;
 }
 #photos{
     line-height: 0;
@@ -99,7 +124,10 @@ footer{
 @media screen and (min-width:400px) {
     #photos{
         column-count: 2;
+        column-gap: 0;
+        
     }
+
 }
 
 /*Media query styles for tablets and larger(768px)*/
@@ -111,16 +139,26 @@ footer{
     }
     #menue li{
         font-size: 140%;
-        letter-spacing: 2px;
-        padding-left: 3em;
+        letter-spacing: 3px;
+        padding-left: 2em;
     }
     #logo{
-        font-size: 250%;
+        font-size: 240%;
         line-height: 40px;
         margin: 0.5rem;
     }
     main{
-        margin-top: 76px;
+        margin-top1: 76px;
+    }
+    #photos{
+        column-count: 3;
+        
+    }
+    main{
+        margin-top: 0;
+    }
+    #cover-text p{
+        margin-right: 100px;
     }
 }
 
