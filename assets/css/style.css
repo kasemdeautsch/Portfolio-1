@@ -168,19 +168,14 @@ footer {
         margin: 0.5rem;
     }
 
-    main {
-        margin-top1: 76px;
-    }
-
+   
+    /*Gallery*/
     #photos {
         column-count: 3;
 
     }
 
-    main1 {
-        margin-top: 0;
-    }
-
+    
     #cover-text p {
         margin-right: 180px;
     }
