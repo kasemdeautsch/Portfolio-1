@@ -22,7 +22,8 @@ body {
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    
+    background-color: rgba(0,255,255,.7);
     padding: 0 1rem;
     position: sticky;
     top: 0;
@@ -119,6 +120,7 @@ hr {
 
 /*Footer*/
 footer {
+    background-color: rgba(0,255,255,.7);
     box-shadow: 0 -2px 2px #3a3a3a;
 }
 
