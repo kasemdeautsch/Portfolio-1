@@ -12,11 +12,10 @@
 body {
     min-height: 100vh;
     display: flex;
-    /*by this Main element will take all surplus space and push the footer down*/
+    
     flex-direction: column;
     /*Generic styles*/
     color: #3a3a3a;
-
     font-family: 'Lato', sans-serif;
 }
 
@@ -75,7 +74,7 @@ h2 {
 
 /*Main content*/
 main {
-
+    /*by this Main element will take all surplus space and push the footer down*/
     flex: 1 0 auto;
     margin-top1: 75px;
     display: flex;
@@ -120,8 +119,10 @@ hr {
     line-height: 0;
 }
 /*Form page*/
-#signup{
-    background: url('../images/gray.jpg') no-repeat 75% /cover;
+#signup {
+    background: url("../images/gray.jpg") no-repeat 75% /cover;
+    background-size1: cover;
+    background-position1: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
@@ -134,7 +135,6 @@ hr {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
 .text-input {
     background: transparent;
     color: #fafafa; 
@@ -145,7 +145,6 @@ hr {
     border-radius: 2px;   
     padding: 0 5px;
 }
-
 .radio-buttons {
     width: 100%;
     display: flex;
@@ -160,6 +159,7 @@ hr {
     background-color: #454b1b;
     color: #fafafa;
 }
+
 /*Footer*/
 footer {
     background-color: rgba(0,255,255,.7);
@@ -222,6 +222,24 @@ footer {
     
     #cover-text p {
         margin-right: 180px;
+    }
+    #signup{
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+    
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
