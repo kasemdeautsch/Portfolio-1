@@ -12,7 +12,6 @@
 body {
     min-height: 100vh;
     display: flex;
-    
     flex-direction: column;
     /*Generic styles*/
     color: #3a3a3a;
@@ -22,7 +21,6 @@ body {
 /*Header*/
 header {
     background-color:rgb(227 140 110 / 56%);
-    background-color1: #fafafa;
     padding: 0 1rem;
     position: sticky;
     top: 0;
@@ -150,7 +148,6 @@ main {
 /*Footer*/
 footer {
     background-color:rgb(227 140 110 / 56%);
-    background-color1:#fafafa;
     box-shadow: 0 -2px 2px #3a3a3a;
 }
 
