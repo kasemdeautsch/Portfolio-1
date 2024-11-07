@@ -124,6 +124,9 @@ main {
     color: #fafafa;
     margin-bottom: 20px;
 }
+#signup-form i{
+    padding: 10px;
+}
 .text-input {
     background: transparent;
     color: #fafafa; 
