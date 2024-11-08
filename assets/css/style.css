@@ -80,6 +80,9 @@ main {
     background: url("../images/Aleppo_City.jpg") no-repeat center center/cover;
     height: 600px;
     width: 100%;
+    display1: flex;
+    flex-direction1: column;
+    align-items1:center;
 }
 
 #cover-text {
@@ -97,7 +100,14 @@ main {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }
-
+#map{
+    width: 100vw;
+    max-height: 300px;
+}
+#map img{
+    width: 100%;
+    height: auto;
+}
 /*Gallery page*/
 #photos img {
     width: 100%;
