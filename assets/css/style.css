@@ -96,7 +96,8 @@ main {
 #cover-text p {
     padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
+    font-weight: 600;
+    width: 90%;
 }
 .map {
     margin-top: 60px;
