@@ -28,4 +28,28 @@ and a form to enable contact and signup to regist and get more informations.
   - The footer includes links to the social media sites which should lead to social media chanels of this 
       website, The links will open to a new tab to allow easy navigation for the user.
   - The value of the footer is that it encourages users to keep connected via social media.
-  ![](/media/footer.png)
+     ![](/media/footer.png)
+- The Gallery
+  - the gallery page displays photos of most cities in Syria and the most sites that peaple visits.
+  - The page is usefull so that it contains the places that can the visitor visits when he is there.
+    ![](/media/gallery.png)
+- The Signup page
+  - this page allows the user to sign up to the website so that they become a member.
+      for further informations.
+  - It arequires the user to enter his email address and full name.
+    ![](/media/signup.png)
+- Features Left to Implement
+  - Another feature idea
+- Testing
+  - I tested the website and it works on different web browsers like Chrome, Firefox and Edge.
+  - The web site is responsive and looks good on standard screen sizes using devtools device toolbar.
+  - The header and navigation and text on all pages is readable and easy to understand.
+  - I tested the Form and confirmed that it works and required fields fuctions, the form will not
+      accept to register without entering valid Email address, the Register field works as well.
+- Bugs
+  - no bugs found.
+- Validator Testing
+  - HTML
+    - No errors were returned when passing through the official W3C validator
+  - CSS
+    - No errors were found when passing through the official (Jigsaw) validator
