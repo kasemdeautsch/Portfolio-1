@@ -98,15 +98,18 @@ main {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }
-.map{
-    margin-top: 20px;
+.map {
+    margin-top: 60px;
     width: 100%;
-    max-height: 300px;
-    height: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .map img{
     width: 80%;
-    height: 300px;
+    height: 100%;
 }
 /*Gallery page*/
 #photos img {
