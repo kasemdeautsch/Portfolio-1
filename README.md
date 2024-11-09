@@ -5,3 +5,27 @@ located and what other countries border it north, south, east and west.
 
 Users and visitors who are interested in history or might be visiting Syria will find some informations about location, the **Ancient History** and the **Modern Era**, photos to most city sightseeing,
 and a form to enable contact and signup to regist and get more informations. 
+
+![](/media/Screenshot%202024-11-09%20120836.png)
+
+## Features
+
+## Existing Features
+
+- Navigation Bar
+  - Featured at the top of the page for all pages, with
+    links to the main page (Home) and otherpages.
+  - The other navigations to the right: Home, History, Gallery, Contacts, and all linking to 
+    different pages of the website.
+  - The navigation is in a color that contrasts with the background.
+  - The navigation shows clearly the name of the website to make it easy to navigate the other
+    pages.
+    ![](/media/Screenshot%202024-11-09%20122046.png)
+- The Header
+  - The Header contains the Navigation Bar and the logo which is a Heading with the site name: SYRIA HOME 
+   on the left which leads to landing home page, and the rest links to the right.
+- The footer
+  - The footer includes links to the social media sites which should lead to social media chanels of this 
+      website, The links will open to a new tab to allow easy navigation for the user.
+  - The value of the footer is that it encourages users to keep connected via social media.
+  ![](/media/footer.png)
