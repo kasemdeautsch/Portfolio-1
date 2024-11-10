@@ -17,7 +17,9 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-
+.hidden-header{
+    display: none;
+}
 /*Header*/
 header {
     background-color: rgb(227 140 110 / 56%);

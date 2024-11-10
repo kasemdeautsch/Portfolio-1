@@ -6,7 +6,7 @@ located and what other countries border it north, south, east and west.
 Users and visitors who are interested in history or might be visiting Syria will find some informations about location, the **Ancient History** and the **Modern Era**, photos to most city sightseeing,
 and a form to enable contact and signup to regist and get more informations. 
 
-![](/media/responsive.png)
+![](/media/am-i-responsive.png)
 
 ## Features
 
