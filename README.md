@@ -74,5 +74,5 @@ and a form to enable contact and signup to regist and get more informations.
   - The code for social media links was taken from **Love running Project**.
   - The Form dedign was taken from **Love running Project**.
 - Media
-  - The photos in Gallery page from open source(Google search)
-  - the background image of the home page is also
+  - The photos in Gallery page from open source(Google search).
+  - the background image of the home page is also.
