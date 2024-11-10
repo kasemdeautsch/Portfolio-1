@@ -129,7 +129,7 @@ main {
 /*Form page*/
 #signup {
     background: url("../images/signup-background.jpg") no-repeat center / cover;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 10% 10%;
     flex-grow: 1;
 }
 
@@ -241,7 +241,7 @@ footer {
         max-width: 400px;
         position: absolute;
         left: 30%;
-        top: 70px;
+        top: 10px;
     }
 
     .text-input:hover {
