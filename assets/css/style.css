@@ -17,9 +17,11 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+
 .hidden-header{
     display: none;
 }
+
 /*Header*/
 header {
     background-color: rgb(227 140 110 / 56%);
@@ -30,7 +32,6 @@ header {
     z-index: 11;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-
 }
 
 header a {
