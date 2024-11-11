@@ -97,6 +97,14 @@ and a form to enable contact and signup to register and get more informations.
   - The icons in the footer were taken from Font Awesome
   - The code for social media links was taken from **Love running Project**.
   - The Form dedign was taken from **Love running Project**.
+  - The following websites ware used for problem solving.
+    - **https://www.diffchecker.com/**.
+    - **https://stackoverflow.com/**.
+    - **https://www.w3schools.com/**.
+    - **https://www.perplexity.ai/**.
+    - **https://www.pexels.com/**.
+    - **https://tinypng.com/**.
+
 - Media
   - The photos in Gallery page from open source(Google search).
   - the background image of the home page is also.
